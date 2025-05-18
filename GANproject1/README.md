@@ -295,6 +295,7 @@ class Discriminator(nn.Module):
 | Visual Quality| Noticeable artifacts   | High fidelity        |
 
 > **Note**: PGGAN failed to transition properly to step 4 (64×64), resulting in invalid or non-evaluable outputs (null FID). Metrics reported for PGGAN correspond to step 3 (32×32).
+
 ![001310](https://github.com/user-attachments/assets/9c57bc1d-39c8-4333-a2d7-5a63466cdebc)
 ![001308](https://github.com/user-attachments/assets/80ef4e95-581f-4116-8f0d-229d9a5e23ca)
 ![001307](https://github.com/user-attachments/assets/fe663638-dde2-491e-befb-0456e3c457ee)
