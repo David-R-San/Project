@@ -295,7 +295,7 @@ class Discriminator(nn.Module):
 | Visual Quality| Noticeable artifacts   | High fidelity        |
 
 > **Note**: PGGAN failed to transition properly to step 4 (64×64), resulting in invalid or non-evaluable outputs (null FID). Metrics reported for PGGAN correspond to step 3 (32×32).
-
+![001310](https://github.com/user-attachments/assets/9c57bc1d-39c8-4333-a2d7-5a63466cdebc)
 ![001308](https://github.com/user-attachments/assets/80ef4e95-581f-4116-8f0d-229d9a5e23ca)
 ![001307](https://github.com/user-attachments/assets/fe663638-dde2-491e-befb-0456e3c457ee)
 ![001306](https://github.com/user-attachments/assets/18cb0b23-c8f6-45b3-b216-03a19c12e02d)
@@ -305,7 +305,6 @@ class Discriminator(nn.Module):
 ![001240](https://github.com/user-attachments/assets/70976c6f-b2b8-4f7d-8e13-92180128e1aa)
 ![001239](https://github.com/user-attachments/assets/4ea8ac8b-74d5-4fb1-979d-96276b60c0ad)
 ![001238](https://github.com/user-attachments/assets/83bfb7e7-7b30-4e80-8773-5fb937c0c764)
-![001237](https://github.com/user-attachments/assets/f2e50ac9-8d59-451d-b5d9-55fa90584ea2)
 ![001236](https://github.com/user-attachments/assets/8eb19a3b-406d-46e2-bd53-b9376f7b27ec)
 ![001299](https://github.com/user-attachments/assets/66166865-72b7-4364-9a98-464f652a052b)
 ![001298](https://github.com/user-attachments/assets/9ba62963-be0e-4cf0-85eb-5abebad41888)
