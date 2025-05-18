@@ -311,7 +311,7 @@ class Discriminator(nn.Module):
 ![001298](https://github.com/user-attachments/assets/9ba62963-be0e-4cf0-85eb-5abebad41888)
 ![001297](https://github.com/user-attachments/assets/69c0e66b-4d1d-4b03-ab92-8a18abe021cf)
 ![001296](https://github.com/user-attachments/assets/8f6e191c-f310-4b04-8d40-394739e518e7)
-![001295](https://github.com/user-attachments/assets/1c1db4c6-96e7-45b2-b9e9-c67735eb3a4f)
+![000014](https://github.com/user-attachments/assets/b0ee460f-6390-44bb-84f6-41c2ac65b170)
 ![001294](https://github.com/user-attachments/assets/f37c0bd7-5583-4fd0-ad5b-5f338369a52e)
 ![001293](https://github.com/user-attachments/assets/2cff311d-4a2e-4092-b27f-1b53ea6040c5)
 ![001292](https://github.com/user-attachments/assets/ba3271c8-11fe-423d-92b9-f0fa389e4c15)
