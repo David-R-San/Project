@@ -12,7 +12,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = AutoTokenizer.from_pretrained("microsoft/biogpt")
 tokenizer.pad_token = tokenizer.eos_token
 model = ClinicalMultimodalModel("microsoft/biogpt")
-#model.load_state_dict(torch.load("model_biogpt.pth", map_location=device))
+model.load_state_dict(torch.load("model_biogpt.pth", map_location=device))
 model.eval()
 model.to(device)
 
