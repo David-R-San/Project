@@ -1,1 +1,1 @@
-Here you can see some projects I'm working on
+Here you can see some projects I'm working on.
