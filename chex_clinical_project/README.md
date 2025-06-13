@@ -58,7 +58,8 @@ The experiments demonstrated that fine-tuning BioGPT provides significant gains 
 
 ## How to Use
 
-- dowload the Indiana dataset from kaggle
+- clone the repository
+- dowload the Indiana report images from kaggle´s dataset
 - dowload the fine-tuned model here: https://drive.google.com/file/d/1EEME4Rksg326YTnT2_1Zb-vxsa3YKmPH/view?usp=drive_link
 - Run `gradio_biogpt_interface_fixed.py` to test the model with Grad-CAM interface
 
@@ -82,4 +83,4 @@ This project was executed on the following machine:
 
 ## Contact
 
-For questions or collaboration: [your_email@example.com]
+For questions or collaboration: [davidrs@id.uff.br]
