@@ -19,7 +19,7 @@ This project is a **RAG (Retrieval-Augmented Generation)** application designed 
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/seuusuario/rag-fgts.git
+$ [git clone https://github.com/seuusuario/rag-fgts.git](https://github.com/David-R-San/Project/tree/main/caixa-rag-assistant)](https://github.com/David-R-San/Project/tree/main/caixa-rag-assistant)
 $ cd rag-fgts
 
 # Create virtual environment (optional)
