@@ -72,7 +72,7 @@ MIT
 ## Next Steps
 
 - Perform fine-tuning of the used models to better adapt them to the specific medical domain.
-- Evaluate alternative vision architectures (e.g., ConvNeXt, ViT, EfficientNet) instead of ResNet for extracting image embeddings.
+- Evaluate alternative vision architectures (e.g., ConvNeXt, ViT, EfficientNet,BLIP) instead of ResNet for extracting image embeddings.
 - Explore advanced biomedical models like **PMC_LLaMA_7B** and **MedAlpaca**, which have around 7 billion parameters. However, these models present **hardware limitations** and are not feasible to run on a GPU with 12 GB VRAM, such as the one used in this project.
 
 ### System Configuration
