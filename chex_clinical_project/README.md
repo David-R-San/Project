@@ -45,7 +45,7 @@ The following images compare BioGPT outputs after 5 epochs of fine-tuning  with
 | Phi-2               | 0.0440 | 0.0161 | 0.0051 | 0.0801  | 82.0092                |
 | BioGPT-Large        | 0.0336 | 0.0137 | 0.0045 | 0.0847  | 6.4947                 |
 | GPT-2               | 0.0205 | 0.0072 | 0.0026 | 0.0808  | 3.1919                 |
-| BioGPT (Fine-tuned) | 0.2586 | 0.1473 | 0.0510 | 0.3632  | 0.9732                 |
+| BioGPT (Fine-tuned with res50) | 0.2796 | 0.1492 | 0.0597 | 0.3614  | 4.7330                 |
 
 - **BioGPT** showed the best BLEU performance.
 - **BioGPT-Large** and **Phi-2** achieved the highest ROUGE-L.
