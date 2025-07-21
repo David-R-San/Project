@@ -1,8 +1,4 @@
-# Estudo comparativo entre modelos de DNN para a construção de
-
-um encoder-decoder multimodal para geração de laudos em
-
-radiografias do tórax. Este repositório é dividido em duas partes principais:
+# Estudo comparativo entre modelos de DNN para a construção de um encoder-decoder multimodal para geração de laudos em radiografias do tórax. Este repositório é dividido em duas partes principais:
 
 ## Parte 1: Treinamento Inicial dos Modelos
 
