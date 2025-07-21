@@ -1,4 +1,4 @@
-# CheX_Clinical_Project(modifications and changes will be made soon)
+# CheX_Clinical_Project(part 1)
 
 ## Overview
 
