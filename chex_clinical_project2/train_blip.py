@@ -64,7 +64,7 @@ def safe_clamp(tensor, vocab_size):
     return torch.clamp(tensor, min=0, max=vocab_size - 1)
 
 
-
+'''
 # Try to resume training from checkpoint
 checkpoint_path = r"C:/Users/David/Downloads/chex_clinical_project/saved_models_blipfull_teste_A/checkpoint_epoch_15.pth"
 start_epoch = 0
@@ -81,7 +81,7 @@ if os.path.exists(checkpoint_path):
     else:
         model.load_state_dict(checkpoint)
         print("Loaded weights only, not full checkpoint state.")
-
+'''
         
 
 
@@ -89,8 +89,8 @@ if os.path.exists(checkpoint_path):
 loss_history = []
 num_epochs = 30
 val_loss_not_improving = 0
-#start_epoch = 0
-#best_val_loss = float('inf')  # fallback default
+start_epoch = 30
+best_val_loss = float('inf')  # fallback default
 
 for epoch in range(start_epoch, num_epochs):
     model.train()
