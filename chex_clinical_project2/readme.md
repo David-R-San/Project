@@ -9,7 +9,7 @@ Os modelos foram treinados utilizando os seguintes scripts:
 - `train_eval_split_metrics.py`  (resnet+biogpt)
 - `train_blip.py` (blip+biot5)
 
-Esses scripts executam as tarefas de treinamento, avaliação e separação dos dados, além de gerar as métricas iniciais. Certifique-se de usar as versões corretas pra cada modelo em dataset e model comentados nos arquivos `clinical_model.py` e `chex_dataset.py`.
+Esses scripts executam as tarefas de treinamento, avaliação e separação dos dados. Certifique-se de usar as versões corretas pra cada modelo em dataset e model comentados nos arquivos `clinical_model.py` e `chex_dataset.py`.
 
 ## Parte 2: R2GenBioGPT
 
