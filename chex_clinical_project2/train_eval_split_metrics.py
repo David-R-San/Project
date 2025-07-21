@@ -42,10 +42,10 @@ test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)
 # Model
 model = ClinicalMultimodalModel(model_checkpoint).to(device)
 
-checkpoint_path =r"C:/Users/David/Downloads/chex_clinical_project/saved_models/checkpoint_epoch_3_melhor.pth"
+#checkpoint_path =r"C:/Users/David/Downloads/chex_clinical_project/saved_models/checkpoint_epoch_3_melhor.pth"
 
 # Load checkpoint explicitly
-model.load_state_dict(torch.load(checkpoint_path, map_location=device))
+#model.load_state_dict(torch.load(checkpoint_path, map_location=device))
 
 initial_weight_decay = 0.01
 optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5, weight_decay=initial_weight_decay)
@@ -59,7 +59,7 @@ os.makedirs(save_dir, exist_ok=True)
 # Training loop
 best_val_loss = float('inf')
 loss_history = []
-num_epochs = 0
+num_epochs = 30
 no_improve_epochs = 0
 
 for epoch in range(num_epochs):
@@ -131,9 +131,9 @@ plt.savefig("resultsNeo/loss_curve.png")
 plt.close()
 
 # Evaluation
-#checkpoint_eval = torch.load(os.path.join(save_dir, "best_model.pth"), map_location=device)# modifcar  com o de baixo para usar modelo salvo
-checkpoint_eval = torch.load(checkpoint_path, map_location=device)
-#model.load_state_dict(checkpoint_eval["model_state_dict"])
+checkpoint_eval = torch.load(os.path.join(save_dir, "best_model.pth"), map_location=device)# modifcar  com o de baixo para usar modelo salvo
+#checkpoint_eval = torch.load(checkpoint_path, map_location=device)
+model.load_state_dict(checkpoint_eval["model_state_dict"])
 model.eval()
 
 bleu_1, bleu_2, bleu_4, rouge_l = [], [], [], []
@@ -186,7 +186,7 @@ summary = {
     "BLEU-2": sum(bleu_2)/len(bleu_2),
     "BLEU-4": sum(bleu_4)/len(bleu_4),
     "ROUGE-L": sum(rouge_l)/len(rouge_l),
-    "Perplexity": torch.exp(torch.tensor(sum(ce_losses)/len(ce_losses))).item(),
+    #"Perplexity": torch.exp(torch.tensor(sum(ce_losses)/len(ce_losses))).item(),
     "Avg Inference Time (s)": sum(inf_times)/len(inf_times)
 }
 
