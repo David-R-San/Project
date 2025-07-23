@@ -14,7 +14,8 @@ from dataset.chex_dataset import CheXDataset
 from models.clinical_model import ClinicalMultimodalModelBLIP2StyleBioT5
 
 # Settings
-model_checkpoint = "microsoft/biogpt"
+#model_checkpoint = "microsoft/biogpt"
+model_checkpoint = "QizhiPei/biot5-base"
 blip_processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
