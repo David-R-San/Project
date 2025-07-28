@@ -1,6 +1,7 @@
 # Estudo comparativo entre modelos de DNN para a construção de um encoder-decoder multimodal para geração de laudos em radiografias do tórax. 
 
 Este repositório é dividido em duas partes principais:
+Link do artigo em desenvolvimento: https://www.overleaf.com/read/kxqvqwmgfbjk#066db9
 
 ## Parte 1: Treinamento Inicial dos Modelos
 
@@ -28,4 +29,6 @@ O restante da base de dados (imagens radiográficas) pode ser obtido pelo link:
 - [Chest X-rays - Indiana University (Kaggle)](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university)
 
 **Importante:** certifique-se de ajustar os caminhos dos arquivos nos scripts de acordo com a estrutura local da sua máquina.
+
+
 
