@@ -1,35 +1,35 @@
-# Estudo comparativo entre modelos de DNN para a construção de um encoder-decoder multimodal para geração de laudos em radiografias do tórax. 
+# Comparative Study of DNN-Based Models for Building a Multimodal Encoder-Decoder for Chest X-Ray Report Generation. 
 
-Este repositório é dividido em duas partes principais:
+This repository is divided into two main parts
 
-Link do artigo em desenvolvimento: https://www.overleaf.com/read/kxqvqwmgfbjk#066db9
+Link to the article in development: https://www.overleaf.com/read/kxqvqwmgfbjk#066db9
 
-## Parte 1: Treinamento Inicial dos Modelos
+## Part 1: Initial Model Training
 
-Os modelos foram treinados utilizando os seguintes scripts:
+The models were trained using the following scripts:
 
 - `train_eval_split_metrics.py`  (resnet+biogpt)
 - `train_blip.py` (blip+biot5)
 
-Esses scripts executam as tarefas de treinamento, avaliação e separação dos dados. Certifique-se de usar as versões corretas pra cada modelo em dataset e model comentados nos arquivos `clinical_model.py` e `chex_dataset.py`.
+These scripts perform training, evaluation, and dataset splitting tasks. Make sure to use the correct versions for each model and dataset, as specified in the clinical_model.py and chex_dataset.py files.
 
-## Parte 2: R2GenBioGPT
+## Part 2: R2GenBioGPT
 
-Dentro da pasta `R2GenBioGPT`, o treinamento foi realizado com o script:
+Within the R2GenBioGPT folder, training was conducted using the script:
 
 - `train.py`
 
-Esse script é responsável pelo treinamento do modelo R2GenBioGPT, que utiliza os dados preparados na primeira etapa. Aqui as configurações são independentes da primeira parte, mais alinhadas com as do código original do paper R2GenGPT.
+This script is responsible for training the R2GenBioGPT model, which uses the preprocessed data from the first stage. The configurations here are independent of the first part and more closely aligned with the original codebase from the R2GenGPT paper.
 
-## Base de Dados
+## Dataset
 
-Os reports (laudos) já foram tratados e estão disponíveis na pasta `dataset` deste repositório.
+The reports have already been preprocessed and are available in the dataset folder within this repository.
 
-O restante da base de dados (imagens radiográficas) pode ser obtido pelo link:
+The remaining dataset (radiographic images) can be obtained from the following link:
 
 - [Chest X-rays - Indiana University (Kaggle)](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university)
 
-**Importante:** certifique-se de ajustar os caminhos dos arquivos nos scripts de acordo com a estrutura local da sua máquina.
+**Important:** Be sure to adjust the file paths in the scripts according to your local machine's directory structure.
 
 
 
