@@ -31,7 +31,7 @@ The remaining dataset (radiographic images) can be obtained from the following l
 
 **Important:** Be sure to adjust the file paths in the scripts according to your local machine's directory structure.
 
-License
+## License
 MIT
 
 
